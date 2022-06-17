@@ -16,5 +16,5 @@ do
     else
         echo "$COUNTER"
     fi
-    i=$((i+1))
+    let COUNTER+=1
 done
